@@ -1,26 +1,30 @@
-# Random Password-Generator
+# Password Generator
 
-This Python script is a simple random password generator. It generates strong and random passwords based on user-defined criteria, such as the length and character types included. It's a useful tool for enhancing the security of your online accounts.
+This Python program generates secure passwords with customizable options for the number of characters and the types of characters included (letters, numbers, symbols).
 
-## Introduction
+## Table of Contents
+- [Description](#description)
+- [Usage](#usage)
+- [License](#license)
 
-In today's digital age, having strong and unique passwords is crucial for online security. 
-The Random Password Generator is a Python script designed to help you create secure passwords for your accounts. 
-It allows you to customize the length of the password and select character types, including letters (both lowercase and uppercase), numbers, and symbols. 
-With this tool, you can quickly generate passwords that are hard to guess and provide an additional layer of protection for your accounts.
+## Description
 
-## Features
+The Password Generator creates strong and random passwords to enhance security. It offers flexibility in generating passwords with varying lengths and compositions of letters, numbers, and symbols.
 
-- Customizable password length.
-- Option to include letters, numbers, and symbols.
-- Strong and random password generation.
-- Easy-to-use Python script.
+## Usage
 
-## How to Use
+1. **Run the Program**: Execute the Python script to start the Password Generator.
+
 If you open the "Password Generator.py" file you can see that you "have" 2 password generators like: line 6 to line 20 that are commented can be used for customization of your password with how many letters, symbols or numbers you want.
+
 If you want just a random password with a specific number of characters you can use the rest of the code (line 23 - line 31).
 
-1. Clone the repository to your local machine:
+2. **Customize Password**: When prompted, enter the desired number of characters for the password.
 
-   ```sh
-   git clone https://github.com/aFro95/Password-Generator.git
+3. **Generated Password**: The program will generate a random password based on the specified length, consisting of a combination of letters, numbers, and symbols.
+
+4. **Copy and Use**: Copy the generated password and use it for your accounts or applications where secure authentication is required.
+
+## License
+
+This project is licensed under the MIT License.
